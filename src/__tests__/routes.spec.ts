@@ -1,8 +1,7 @@
+import { UsersRepository } from "../modules/users/repositories/implementations/UsersRepository";
+import { app } from "../index";
 import request from "supertest";
 import { v4 } from "uuid";
-
-import { app } from "../index";
-import { UsersRepository } from "../modules/users/repositories/implementations/UsersRepository";
 
 describe("[POST] /users", () => {
   it("should be able to create new users", async () => {

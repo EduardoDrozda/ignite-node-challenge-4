@@ -1,6 +1,5 @@
-import { validate } from "uuid";
-
 import { UsersRepository } from "../../../modules/users/repositories/implementations/UsersRepository";
+import { validate } from "uuid";
 
 describe("UsersRepository", () => {
   let usersRepository: UsersRepository;
